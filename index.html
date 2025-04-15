@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>EcoFood</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body style="background-color: #94A07A;">
@@ -11,13 +12,13 @@
   <header style="background-color: white; border: none; box-shadow: none; padding: 20px;">
     <div style="display: flex; justify-content: space-between; align-items: center; padding: 10px 20px;">
       <div style="display: flex; align-items: center;">
-        <img src="Recurso 16.svg" alt="Logo EcoFood" style="height: 60px; margin-right: 15px;">
+        <img src="assets/Recurso 16.svg" alt="Logo EcoFood" style="height: 60px; margin-right: 15px;">
         <h1 style="margin: 0; font-size: 2.5rem; color: #2e7d32;"></h1>
       </div>
       <div style="text-align: right;">
         <div>
-          <a href="register.html">Registrarse</a> |
-          <a href="login.html">Iniciar Sesión</a>
+          <a href="register.html" class="btn btn-success">Registrarse</a> |
+          <a href="login.html" class="btn btn-success">Iniciar Sesión</a>
         </div>
         <div>
           <a href="#">EN</a> / <a href="#">ES</a>
@@ -26,8 +27,8 @@
     </div>
   </header>
   
-  <section id="quienes-somos">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">¿Quiénes somos?</h2>
+  <section id="quienes-somos" class="p-5">
+    <h2 class="mb-3" style=" font-size: 2.5rem; color: #ffffff;">¿Quiénes somos?</h2>
     <p>
       EcoFood es una organización comprometida con la reducción del desperdicio alimentario mediante iniciativas educativas, tecnológicas y prácticas cotidianas.
       Nuestro propósito es promover un mundo más justo y sostenible, empoderando a las personas y comunidades para optimizar el uso de alimentos, minimizar residuos y proteger nuestro planeta.
@@ -36,47 +37,48 @@
       Somos un equipo diverso formado por expertos en medio ambiente, tecnología y desarrollo comunitario, unidos por un propósito común: generar conciencia, educar y activar soluciones para enfrentar este desafío global.
     </p>
     <div style="text-align: center; margin-top: 20px;">
-      <img src="imagen 2.jpg" alt="Logo EcoFood" style="height: 300px;">
+      <img src="assets/imagen 2.jpg" alt="Logo EcoFood" style="height: 300px;">
     </div>
   </section>
 
-  <section id="mision">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Nuestra Misión</h2>
+  <section id="mision" class="m-5">
+    <h2 class="mb-3" style="margin: 0; font-size: 2.5rem; color: #ffffff;">Nuestra Misión</h2>
     <p>
       Nuestra misión es sensibilizar y movilizar a las comunidades locales y globales sobre la importancia de reducir el desperdicio de alimentos, brindando herramientas prácticas, educativas y tecnológicas que permitan a las personas adoptar hábitos sostenibles y responsables para mejorar la seguridad alimentaria y proteger el medio ambiente.
     </p>
   </section>
 
-  <section id="vision">
+  <section id="vision" class="m-5">
     <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Nuestra Visión</h2>
     <p>
       Nuestra visión es un mundo en el cual los alimentos se valoren y aprovechen responsablemente, en donde la seguridad alimentaria esté garantizada para todos y el desperdicio alimentario sea mínimo, generando un impacto positivo significativo en el medio ambiente, la economía y la sociedad.
     </p>
   </section>
 
-  <section id="que-hacemos">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Qué hacemos</h2>
+  <section id="que-hacemos" class="m-5">
+    <h2 style="margin: 15; font-size: 2.5rem; color: #ffffff;">Qué hacemos</h2>
     <div class="acciones">
       <div>
-        <h3 style="margin: 0; font-size: 1.2rem; color: #000000;">Educamos</h3>
+        <div>
+        <h3 style="margin: 5; font-size: 1.2rem; color: #000000;">Educamos</h3>
         <p>Ofrecemos materiales educativos gratuitos y talleres comunitarios para fomentar prácticas sostenibles en el consumo de alimentos.</p>
       </div>
       <div>
-        <h3 style="margin: 0; font-size: 1.2rem; color: #000000;">Conectamos</h3>
+        <h3 style="margin: 5; font-size: 1.2rem; color: #000000;">Conectamos</h3>
         <p>Promovemos alianzas entre productores, comerciantes, consumidores y comunidades para reducir excedentes y aprovechar al máximo los alimentos disponibles.</p>
       </div>
       <div>
-        <h3 style="margin: 0; font-size: 1.2rem; color: #000000;">Innovamos</h3>
+        <h3 style="margin: 5; font-size: 1.2rem; color: #000000;">Innovamos</h3>
         <p>Utilizamos la tecnología para desarrollar soluciones prácticas, como aplicaciones móviles, plataformas web y redes comunitarias que faciliten la reducción del desperdicio alimentario.</p>
       </div>
     </div>
   </section>
 
-  <section>
+  <section class="m-5">
     <table width="100%">
       <tr>
         <td width="70%">
-          <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Datos relevantes sobre la problemática</h2>
+          <h2 style="margin: 5; font-size: 2.5rem; color: #ffffff;">Datos relevantes sobre la problemática</h2>
           <ul>
             <li>1/3 de los alimentos producidos globalmente se desperdician (FAO, 2021).</li>
             <li>El desperdicio alimentario genera aproximadamente 8-10% de las emisiones mundiales de gases de efecto invernadero.</li>
@@ -85,13 +87,13 @@
           </ul>
         </td>
         <td align="right">
-          <img src="imagen 3.webp" alt="Apoya EcoFood" width="240" style="background-color: #94A07A;">
+          <img src="assets/imagen 3.webp" alt="Apoya EcoFood" width="240" style="background-color: #94A07A;">
         </td>
       </tr>
     </table>
   </section>
   
-  <section id="como-ayudar">
+  <section id="como-ayudar" class="m-5">
     <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Cómo puedes ayudar</h2>
     <ul>
       <li><strong>Consume responsablemente:</strong> Planifica tus compras y utiliza alimentos de forma eficiente.</li>
@@ -101,25 +103,33 @@
     </ul>
   </section>
   
-  <section id="opiniones">
-    <h2 style="margin: 0; font-size: 2.5rem; color: #ffffff;">Opiniones</h2>
-    <blockquote>
-      <p>“Buenísimo”</p>
-      <footer>— Sebastian Acuña, Dueño de empresa</footer>
-    </blockquote>
-    <blockquote>
-      <p>“Impresionante”</p>
-      <footer>— Anna Fran, Mujer conocida</footer>
-    </blockquote>
-    <blockquote>
-      <p>“Me gustaría comprarla”</p>
-      <footer>— Bruce Wayne, Filántropo</footer>
-    </blockquote>
-  </section>
+  <section id="opiniones" class="m-5">
+    <h2 style="margin: 100; font-size: 2.5rem; color: #ffffff;">Opiniones</h2>
+      <div class="card mb-4">
+      <div class="card-body">
+        <blockquote>
+          <p>“Buenísimo” </p>
+          <footer>— Sebastian Acuña, Dueño de empresa</footer>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-body">
+        <blockquote>
+          <p>“Impresionante”</p>
+          <footer>— Anna Fran, Mujer conocida</footer>
+      </div>
+    </div>
+    <div class="card mb-4">
+      <div class="card-body">
+        <blockquote>
+          <p>“Me gustaría comprarla”</p>
+          <footer>— Bruce Wayne, Filántropo</footer>
+      </div>
+    </div>
   
   <footer>
-    <div style="text-align: center; background-color: #ffffff;">
-      <img src="Recurso 9.svg" alt="Logo EcoFood Pie" width="180" style="margin-bottom: 10px;">
+    <div style="text-align: center; background-color: #ffffff;" class="m-5">
+      <img src="assets/Recurso 9.svg" alt="Logo EcoFood Pie" width="180" style="margin-bottom: 10px;">
       <h2>Contacto</h2>
       <p>Dirección: Calle Verde 123, Ciudad Sostenible</p>
       <p>Correo electrónico: <a href="mailto:contacto@ecofood.org">contacto@ecofood.org</a></p>
@@ -134,5 +144,7 @@
     </div>
   </footer>
   
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
